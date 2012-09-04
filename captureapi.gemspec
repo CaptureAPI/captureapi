@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
   s.version     = CaptureAPI::VERSION.dup
   s.platform    = Gem::Platform::RUBY
   s.summary     = %q{Easily integrate website thumbnails into your web app.}
+  s.description = %q{CaptureAPI provides view helpers for Rails 3.1 to easily integrate website thumbnails into your web app.}
 
   s.authors = ['CaptureAPI']
   s.email   = %q{webmaster@captureapi.com}
