@@ -1,6 +1,11 @@
 # CaptureAPI
 
-## Rails3 Configuration
+## Installation
+
+- Add the `captureapi` gem to your Gemfile.
+- Configure the gem manually or with an initializer.
+
+## Initializer for Rails 3.1
 
 You will need to create an initializer before using the library.
 
