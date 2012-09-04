@@ -25,6 +25,6 @@ end
 
 Valid options are:
 
-`width`: The width of the final thumbnail (default: `200`).
-`height`: The height of the final thumbnail (default: `200`).
-`alt`: The value of the `alt` attribute for the `<img>` tag (default: `"Thumbnail of #{url}"`).
+- `width`: The width of the final thumbnail (default: `200`).
+- `height`: The height of the final thumbnail (default: `200`).
+- `alt`: The value of the `alt` attribute for the `<img>` tag (default: `"Thumbnail of #{url}"`).
