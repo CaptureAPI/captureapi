@@ -1,6 +1,8 @@
 require 'rubygems'
 require 'captureapi/version'
 require 'captureapi/configuration'
+require 'captureapi/api'
+require 'captureapi/railtie' if defined?(Rails::Railtie)
 
 module CaptureAPI
   class << self
