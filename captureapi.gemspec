@@ -4,7 +4,7 @@ require 'captureapi/version'
 
 Gem::Specification.new do |s|
   s.name        = %q{captureapi}
-  s.version     = Airbrake::VERSION.dup
+  s.version     = CaptureAPI::VERSION.dup
   s.platform    = Gem::Platform::RUBY
   s.summary     = %q{Easily integrate website thumbnails into your web app.}
 
