@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.homepage = 'http://captureapi.com'
 
   s.require_paths = ['lib']
-  s.files = Dir['lib/**/*'] + Dir['app/**/*'] + ['Rakefile', 'README.md']
+  s.files = Dir['{generators/**/*,lib/**/*,rails/**/*,resources/*,script/*,app/**/*}'] + %w{Rakefile README.md}
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ['lib']
