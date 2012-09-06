@@ -3,9 +3,9 @@ module CaptureAPI
     def thumbnail_tag(url, options = {})
       options.symbolize_keys!
 
-      options[:width] ||= 200
+      options[:width]  ||= 200
       options[:height] ||= 200
-      options[:alt] ||= "Thumbnail of #{url}"
+      options[:alt]    ||= "Thumbnail of #{url}"
 
       thumbnail_options = {
         :width  => options[:width],
