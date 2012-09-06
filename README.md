@@ -2,14 +2,10 @@
 
 ## Installation
 
-- Add the `captureapi` gem to your Gemfile.
+- Add the `gem 'captureapi'` to your Gemfile.
 - Configure the gem manually or with an initializer.
 
-## Initializer for Rails 3.1
-
-You will need to create an initializer before using the library.
-
-Example:
+## Sample initializer for Rails 3.1
 
 ```ruby
 # config/initializers/captureapi.rb
@@ -23,8 +19,9 @@ end
 
 ### thumbnail_tag(url, options = {})
 
-Valid options are:
+Valid `options` are:
 
 - `width`: The width of the final thumbnail (default: `200`).
 - `height`: The height of the final thumbnail (default: `200`).
 - `alt`: The value of the `alt` attribute for the `<img>` tag (default: `"Thumbnail of #{url}"`).
+- All options available in `image_tag`.
